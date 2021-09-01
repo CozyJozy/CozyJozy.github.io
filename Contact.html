@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ballet&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Brooks</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Menu.html">Menu</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="Reservation.html">Reservations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="News.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="contact_menu"><h6>Contact us</h6></div>
+
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="title_contact"><h1>How can we help?</h1>
+          <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+            <label for="pnumber">Phone Number</label>
+            <input type="text" id="pnumber" name="phonenumber" placeholder="Phone Number...">
+
+            <textarea id="subject" name="subject" placeholder="Write Something..." style="height:200px">
+            </textarea>
+
+            <input type="submit" value="Submit">
+
+
+          </form>
+        </div>
+      
+      
+      </div>
+      <div class="col"> 
+        <details>
+          <summary>How can I cancel a booking?</summary>
+          <div class="faq_contect">
+            <p>If you would like to contact a booking the best thing to do is to reach
+              out to us by phone or by email. Our phone number is 210-123-4567 and email is 
+              brookplace@eat.com
+            </p>
+          </div>
+        </details>
+        <details>
+          <summary>Do we have any vegetarian, vegan, gluten free options?</summary>
+          <div class="faq_content">
+            <P>Yes! We understand many have different diets and different beliefs, ask
+              one of our waiters for our Green Menu!
+            </P>
+          </div>
+          </details>
+        <details>
+          <summary>Can we accommodate larger groups? Can we stay open up later for larger
+            groups?
+          </summary>
+          <div class="faq_conent">
+            <P>Any group larger than 20 should send us a email at brookplace@eat.com from there we
+              can accomodate the group and leave it open. From there both sides can decided till what
+            time Brooks will stay open.</P>
+          </div>
+        </details>
+        <details>
+          <summary>Are we hiring?</summary>
+          <div class="faq_content">
+            <p>If anyone would like to work at Brooks it is recommended to send your resume to brookplace@eat.com
+              from here someone will look into the request and contact you.
+            </p>
+          </div>
+        </details>
+      </div>
+
+
+
+</body>
+</html>
